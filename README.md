@@ -10,7 +10,7 @@ A docsify plugin that hide code.
 
 ```js
 window.$docsify = {
-	hideCode: {
+    hideCode: {
         scroll: false, // Enable scrolling
         height: 300 // Max height
     }
