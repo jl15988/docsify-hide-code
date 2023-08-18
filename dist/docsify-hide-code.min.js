@@ -1,6 +1,6 @@
 /*!
  * docsify-hide-code
- * v0.0.1
+ * v1.0.0
  * https://github.com/jl15988/docsify-hide-code#readme
  * (c) 2023 jl15988
  * MIT license
