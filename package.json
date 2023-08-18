@@ -2,7 +2,8 @@
     "name": "docsify-hide-code",
     "version": "1.0.0",
     "description": "A docsify plugin that hide code.",
-    "main": "src",
+    "main": "dist/docsify-hide-code.js",
+    "unpkg": "dist/docsify-hide-code.min.js",
     "scripts": {
         "build": "rollup -c",
         "clean": "rimraf dist/*",

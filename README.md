@@ -4,7 +4,18 @@
 
 A docsify plugin that hide code.
 
+## Installation
+Add following script tag to your index.html after docsify.
 
+```js
+<script src="https://unpkg.com/docsify-hide-code"></script>
+```
+
+You can also use the following script.
+
+```js
+<script src="https://cdn.jsdelivr.net/npm/docsify-hide-code/dist/docsify-hide-code.min.js"></script>
+```
 
 ## Options
 
