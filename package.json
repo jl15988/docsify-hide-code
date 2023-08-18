@@ -1,6 +1,6 @@
 {
     "name": "docsify-hide-code",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A docsify plugin that hide code.",
     "main": "dist/docsify-hide-code.js",
     "unpkg": "dist/docsify-hide-code.min.js",
