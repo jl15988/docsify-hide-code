@@ -1,0 +1,49 @@
+{
+    "name": "docsify-hide-code",
+    "version": "0.0.1",
+    "description": "A docsify plugin that hide code.",
+    "main": "src",
+    "scripts": {
+        "build": "rollup -c",
+        "clean": "rimraf dist/*",
+        "dev": "node server.js & npm run start",
+        "prepare": "npm run clean && npm run build",
+        "start": "npm run build -- -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jl15988/docsify-hide-code.git"
+    },
+    "keywords": [
+        "docsify",
+        "hideCode"
+    ],
+    "files": [
+        "src",
+        "dist",
+        "README.md"
+    ],
+    "author": "jl15988",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jl15988/docsify-hide-code/issues"
+    },
+    "homepage": "https://github.com/jl15988/docsify-hide-code#readme",
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.3.1",
+        "autoprefixer": "^9.4.6",
+        "browser-sync": "^2.26.3",
+        "compression": "^1.7.3",
+        "lodash.merge": "^4.6.1",
+        "rimraf": "^2.6.3",
+        "rollup": "^1.1.2",
+        "rollup-plugin-babel": "^4.3.2",
+        "rollup-plugin-commonjs": "^9.2.0",
+        "rollup-plugin-eslint": "^5.0.0",
+        "rollup-plugin-json": "^3.1.0",
+        "rollup-plugin-node-resolve": "^4.0.0",
+        "rollup-plugin-postcss": "^4.0.2",
+        "rollup-plugin-uglify": "^6.0.1"
+    }
+}
